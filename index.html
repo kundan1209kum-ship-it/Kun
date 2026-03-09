@@ -1,0 +1,129 @@
+
+<! DOCTYPE html>
+<html>
+  <head>
+    <title>MY FIX </title>
+    <meta charset="UTF-8">
+    <meta name="viewport"...>
+    <style>
+      body{
+        background-color:lightblue;
+        display: ;
+      }
+      small{
+        display: flex;
+        gap: px;
+      
+      }
+    </style>
+  </head>
+  <body>
+    <h1>MY FIX</h1>
+    <input type="search" placeholder="SEARCH ">
+    <button onclick="openside()">
+      search
+    </button></button>
+    <hr>
+    <small>
+    <p></p>
+    <p>
+    <ul>
+  
+ <li>
+ <a href="https://www.google.com">Google खोलें</a>
+ Google open karne ke liye yaha click kare:
+ <li>
+<a href="https://www.youtube.com">YouTube खोलें</a>
+YouTube open karne ke liye yaha click kare: <li>
+
+<a href="https://www.facebook.com">Facebook खोलें</a>
+Facebook open karne ke liye yaha click kare: <li>
+
+<a href="https://www.instagram.com">Instagram खोलें</a>
+Instagram open karne ke liye yaha click kare: <li>
+<a href="https://www.whatsapp.com">WhatsApp खोलें</a>
+WhatsApp open karne ke liye yaha click kare: <li>
+<a href="https://www.twitter.com">Twitter खोलें</a> <li>
+Twitter open karne ke liye yaha click kare:
+<a href="https://www.wikipedia.org">Wikipedia खोलें</a> <li>
+Wikipedia open karne ke liye yaha click kare:
+<a href="https://www.amazon.in">Amazon खोलें</a>
+Amazon open karne ke liye yaha click kare: <li>
+<a href="https://www.flipkart.com">Flipkart खोलें</a>
+Flipkart open karne ke liye yaha click kare: <li>
+<a href="https://www.gmail.com">Gmail खोलें</a>
+Gmail open karne ke liye yaha click kare: <li>
+<a href="https://www.googlemaps.com">Google Maps खोलें</a>
+googlemaps open karne ke liye yaha click kare: <li>
+<a href="https://www.openai.com">OpenAI खोलें</a>
+OpenAI open karne ke liye yaha click kare: <li>
+<a href="https://chat.openai.com">ChatGPT खोलें</a>
+ChatGPT open karne ke liye yaha click kare: <li>
+<a href="https://www.microsoft.com">Microsoft खोलें</a>
+Microsoft open karne ke liye yaha click kare: <li>
+<a href="https://www.apple.com">Apple खोलें</a>
+Apple open karne ke liye yaha click kare: <li>
+<a href="https://www.netflix.com">Netflix खोलें</a>
+Netflix open karne ke liye yaha click kare: <li>
+<a href="https://www.hotstar.com">Hotstar खोलें</a>
+Hotstar open karne ke liye yaha click kare: <li>
+<a href="https://www.telegram.org">Telegram खोलें</a>
+Telegram open karne ke liye yaha click kare: <li>
+<a href="https://www.snapchat.com">Snapchat खोलें</a>
+Snapchat open karne ke liye yaha click kare: <li>
+<a href="https://www.linkedin.com">LinkedIn खोलें</a>
+LinkedIn open karne ke liye yaha click kare: 
+ </ul>
+ </p>
+    </small>
+    
+    <footer>
+      <hr>
+      <input type="file" placeholder="Uplode file">
+      <img src 
+    </footer>
+    
+    
+    <script>
+      function openside(){
+  var input =
+  .getElementById("search").value.toLowerCase();
+
+var links = {
+        "google": "https://www.google.com",
+        "youtube": "https://www.youtube.com",
+        "facebook": "https://www.facebook.com",
+        "instagram": "https://www.instagram.com",
+        "twitter": "https://twitter.com",
+        "wikipedia": "https://www.wikipedia.org",
+        "gmail": "https://www.gmail.com",
+        "whatsapp": "https://www.whatsapp.com",
+        "amazon": "https://www.amazon.in",
+        "flipkart": "https://www.flipkart.com",
+        "chatgpt": "https://chat.openai.com"
+    };
+
+    // अगर input dictionary में है तो direct open करो
+    if(links[input]){
+        window.open(links[input], "_blank"); // नया tab में खुलेगा
+    }
+    else{
+        // अगर नहीं मिला तो Google search
+        window.open("https://www.google.com/search?q=" + input, "_blank");
+      
+      
+}
+
+      
+      
+      
+      
+    </script>
+    
+    
+    
+    
+    
+    
+  </body>
+</html>
